@@ -28,7 +28,9 @@
 
 ## 📜 Descrição
   
-
+- Analisar dados clínicos (frases de sintomas) e identificar padrões
+- Reconhecer sintomas relatados por pacientes e relacioná-los a diagnósticos
+- Aplicar técnicas de NLP (Natural Language Processing) e classificação de texto
 
 ## 📁 Estrutura de Pastas
 
