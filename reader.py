@@ -41,7 +41,7 @@ def verificar_sintomas(frases, doenca_sintomas):
         print(f"\nFrase: {frase.strip()}")
         print(f"Possíveis doenças: {list(doenca_encontrada)}")
 
-frases = ler_txt("frases de sintomas.txt")
-doenca = ler_csv("sintomas-doenca.csv")
+frases = ler_txt("Resources\\frases de sintomas.txt")
+doenca = ler_csv("Resources\\sintomas-doenca.csv")
 
 verificar_sintomas(frases, doenca)
