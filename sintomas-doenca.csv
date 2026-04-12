@@ -1,0 +1,21 @@
+Sintoma 1,Sintoma 2,Doença
+dor de cabeça,pressao na cabeca,neurologico
+dor de cabeça,pressao na cabeca,hipertensao arterial
+tontura,vertigem,neurologico
+tontura,vertigem,cardiovascular
+falta de ar,dificuldade para respirar,cardiovascular
+falta de ar,dificuldade para respirar,pulmonar
+visao turva,visao embacada,oftalmologico
+visao turva,visao embacada,cardiovascular
+sangramento pelo nariz,sangramento nasal,hipertensao arterial
+sangramento pelo nariz,sangramento nasal,doenca nasal
+enjoo,nausea,neurologico
+enjoo,nausea,cardiovascular
+aperto no torax,dor no peito,cardiovascular
+aperto no torax,dor no peito,digestivo
+chiado no ouvido,zumbido no ouvido,hipertensao arterial
+chiado no ouvido,zumbido no ouvido,cardiovascular
+desmaio,inconsciencia,cardiovascular
+desmaio,inconsciencia,neurologico
+fadiga,cansaco,cardiovascular
+fadiga,cansaco,metabolico
