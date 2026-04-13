@@ -70,15 +70,14 @@ Essa abordagem pode ser aplicada em sistemas de triagem automatizada, auxiliando
 
 ## 📁 Estrutura de Pastas
 
-  Resources/
-│
-├── frases de sintomas.txt
-├── sintomas-doenca.csv
-├── dataset_classificacao.csv
-│
-reader.py
-classificador.py
-classificador.ipynb
+<b>Resources/<b> <br>
+├── frases de sintomas.txt  <br>
+├── sintomas-doenca.csv <br>
+├── dataset_classificacao.csv <br>
+ <br>
+reader.py <br>
+classificador.py <br>
+classificador.ipynb <br>
 
 ## 🗃 Histórico de lançamentos
 
