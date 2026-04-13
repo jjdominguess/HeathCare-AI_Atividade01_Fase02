@@ -28,13 +28,57 @@
 
 ## 📜 Descrição
   
-- Analisar dados clínicos (frases de sintomas) e identificar padrões
-- Reconhecer sintomas relatados por pacientes e relacioná-los a diagnósticos
-- Aplicar técnicas de NLP (Natural Language Processing) e classificação de texto
+Este projeto faz parte do desafio CardioIA e tem como objetivo simular um sistema de diagnóstico automatizado utilizando Inteligência Artificial.
+
+A solução desenvolvida integra técnicas de **Processamento de Linguagem Natural (NLP)** e **Machine Learning** para:
+
+- Identificar sintomas em frases relatadas por pacientes  
+- Sugerir possíveis diagnósticos com base em um mapa de conhecimento  
+- Classificar o nível de risco (alto ou baixo) em um cenário de triagem clínica
+
+##  Parte 1 – Extração de Sintomas
+
+  Foi desenvolvido um sistema capaz de analisar frases em linguagem natural e identificar sintomas relevantes.
+  
+  A partir de um arquivo `.csv` contendo associações entre sintomas e doenças, o sistema sugere diagnósticos com base na presença de palavras-chave.
+  
+  Essa abordagem simula sistemas de apoio à decisão clínica utilizados em ambientes hospitalares.
+
+---
+
+## Parte 2 – Classificação de Risco com IA
+
+Foi implementado um modelo de Machine Learning para classificar frases médicas em:
+
+- **Alto risco**
+- **Baixo risco**
+
+### Técnicas utilizadas:
+- TF-IDF (vetorização de texto)
+- Regressão Logística (classificação)
+
+O modelo apresentou uma acurácia aproximada de **91%**, demonstrando boa capacidade de identificar padrões mesmo com um conjunto de dados reduzido.
+
+---
+
+## Interpretação dos Resultados
+
+O modelo apresentou alta precisão na identificação de casos de alto risco, o que é desejável em contextos clínicos, onde a priorização de pacientes mais graves é essencial.
+
+Essa abordagem pode ser aplicada em sistemas de triagem automatizada, auxiliando profissionais de saúde na tomada de decisão.
+
 
 ## 📁 Estrutura de Pastas
 
-- <b><a href="Assets/">Assets/</a></b>: Imagens do projeto.
+  Resources/
+│
+├── frases de sintomas.txt
+├── sintomas-doenca.csv
+├── dataset_classificacao.csv
+│
+reader.py
+classificador.py
+classificador.ipynb
 
 ## 🗃 Histórico de lançamentos
 
